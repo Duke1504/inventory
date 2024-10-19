@@ -42,8 +42,8 @@ function clearInputs() {
   productType.value = "";
   productName.value = "";
   productCount.value = "";
-  productList.innerHTML = ""; // Также очищаем список продуктов, если нужно.
-  arrayProducts = []; // Очищаем массив продуктов
+  productList.innerHTML = "";
+  arrayProducts = [];
 }
 
 
